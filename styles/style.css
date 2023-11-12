@@ -1,8 +1,42 @@
+:root {
+    --branding-color:rgb(1, 120, 1);
+    --secondary-color: goldenrod;
+    --heading-font-family: 'Bebas Neue',
+    sans-serif;
+    --body-font:  'Sofia Sans Condensed', sans-serif;
+}
+
 h1 {
-  font-family: 'Bebas Neue',
-    sans-serif;;
+  font-family:var(--heading-font-family); 
+    font-size: 150px;
 }
 
 p {
-    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-family: var(--body-font)
+}
+
+.header {
+    text-align: center;
+    padding-top:130px;
+    padding-left: 50px;
+}
+.hero {
+    background: var(--branding-color);
+    color: #fff; 
+}
+
+.hero p {
+    font-size: 36px;
+}
+
+.pic {
+    text-align: left;
+    line-height: 1;
+}
+
+.btn-branding {
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    font-weight: bold;
+  
 }
