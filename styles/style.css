@@ -17,7 +17,7 @@ p {
 
 .header {
     text-align: center;
-    padding-top:130px;
+    padding-top:100px;
     padding-left: 50px;
 }
 .hero {
@@ -38,5 +38,42 @@ p {
     background-color: var(--secondary-color);
     border-radius: 4px;
     font-weight: bold;
-  
+}
+
+.btn-branding-journey {
+  border-color: var(--secondary-color);
+    border-radius: 4px;
+    color: var(--branding-color);   
+} 
+
+.section2 {
+    text-align: center;
+}
+
+.placeholder-wave {
+    color: rgb(203, 151, 20);
+    background-color: rgb(203, 151, 20);;
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 70px;
+    }
+    .header {
+        padding-left: 5px;
+        padding-top: 80px;
+    }
+   
+    .pic {
+        padding-top: 30px
+    }
+
+    .about-paragraph {
+        text-align: center;
+    }
+
+    .section2 {
+       background-color: var(--branding-color);
+       margin-top: 5px;
+    }
 }
