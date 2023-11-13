@@ -80,6 +80,20 @@ font-size: larger;
 .card-text {
     font-size: larger;
 }
+
+.header-text {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+         transform: translate(-50%, -50%);
+        color: var(--secondary-color);
+}
+
+.gallery-container {
+    background-color: var(--branding-color);
+    padding-top: 5px;
+}
+
 @media(max-width: 800px) {
     h1 {
         font-size: 70px;
@@ -112,6 +126,13 @@ font-size: larger;
 
     .about-section {
         text-align: center;
+    }
+
+    .header-text {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
     }
 }
 
