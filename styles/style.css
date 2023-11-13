@@ -55,7 +55,15 @@ p {
     background-color: rgb(203, 151, 20);;
 }
 
-@media(max-width: 600px) {
+.about-section h1 {
+    font-size: 50px;
+}
+
+.about-section p {
+font-size: larger;
+}
+
+@media(max-width: 800px) {
     h1 {
         font-size: 70px;
     }
@@ -76,4 +84,17 @@ p {
        background-color: var(--branding-color);
        margin-top: 5px;
     }
+
+    .about-paragraph {
+        margin-top: 1px;
+    }
+    .about-img {
+        padding: 5px;
+
+    }
+
+    .about-section {
+        text-align: center;
+    }
 }
+
