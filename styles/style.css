@@ -1,5 +1,5 @@
 :root {
-    --branding-color:rgb(1, 120, 1);
+    --branding-color:rgb(1, 111, 1);
     --secondary-color: goldenrod;
     --heading-font-family: 'Bebas Neue',
     sans-serif;
@@ -46,6 +46,10 @@ p {
     color: var(--branding-color);   
 } 
 
+.about-paragraph p {
+    font-size: larger;
+}
+
 .section2 {
     text-align: center;
 }
@@ -63,6 +67,19 @@ p {
 font-size: larger;
 }
 
+.card-title {
+    font-style: italic;
+}
+
+.title-description {
+    background-image: url(/images/webbEllis.jpg);
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.card-text {
+    font-size: larger;
+}
 @media(max-width: 800px) {
     h1 {
         font-size: 70px;
