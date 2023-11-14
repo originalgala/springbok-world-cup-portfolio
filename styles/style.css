@@ -15,6 +15,18 @@ p {
     font-family: var(--body-font)
 }
 
+.active {
+    color: var(--branding-color) !important; 
+}
+
+.navbar a:hover {
+    font-weight: bold !important;
+}
+
+.navbar {
+    background: var(--secondary-color) !important;
+}
+
 .header {
     text-align: center;
     padding-top:80px;
@@ -92,6 +104,11 @@ font-size: larger;
 .gallery-container {
     background-color: var(--branding-color);
     padding-top: 5px;
+}
+
+.navbar-brand h1 {
+    font-size: 30px;
+    display: inline;
 }
 
 @media(max-width: 800px) {
