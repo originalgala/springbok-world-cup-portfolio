@@ -17,6 +17,7 @@ p {
 
 .active {
     color: var(--branding-color) !important; 
+    font-weight: 500;
 }
 
 .navbar a:hover {
